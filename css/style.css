@@ -1,0 +1,142 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* === Shopping Cloth Section CSS Start === */
+.product-bg-1{background-image: url(../img/bg-1.jpg);}
+.product-bg-2{background-image: url(../img/bg-2.jpg);}
+.product-bg-3{background-image: url(../img/bg-3.jpg);}
+.product-bg-4{background-image: url(../img/bg-4.jpg);}
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #999;
+}
+.profuct-bg {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+}
+.section-title h2 span {
+  color: orange;
+  font-size: 120%;
+  font-weight: 400;
+}
+.section-title p {
+  color: #333;
+  font-weight: 700;
+  font-size: 14px;
+}
+.ticker {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #333;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 11px;
+  text-transform: uppercase;
+  line-height: 40px;
+  border-radius: 50%;
+  font-weight: 700;
+}
+.ticker.ticker-green {
+  background: #34b79d;
+}
+.ticker.ticker-red {
+  background: #f55151;
+}
+.product-bottom-hover {
+  position: absolute;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  bottom: -14px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.product-bottom-hover a {
+  display: block;
+  float: left;
+  width: 33.333333%;
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  color: #333;
+  padding: 10px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+.product-bottom-hover a:hover {
+  background: #333;
+  color: #fff;
+}
+.single-product-item {
+  text-align: center;
+}
+.single-product-item h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.product-price {
+  margin: 0;
+  font-weight: 900;
+  font-size: 110%;
+}
+.single-product-item:hover .product-bottom-hover {
+  opacity: 1;
+  visibility: visible;
+  bottom: 20px;
+}
+	/* Carousel CSS Work */
+.product-carousel.owl-carousel .owl-nav button {
+  height: 40px;
+  background: 30px;
+  background: orange;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 40px;
+  line-height: 0;
+  position: absolute;
+  left: -22px;
+  top: 50%;
+  margin-top: -50px;
+  opacity: .6;
+}
+.product-carousel.owl-carousel .owl-nav button.owl-next {
+  left: auto;
+  right: -22px;
+}
+/* === Shopping Cloth Section CSS Stop === */
